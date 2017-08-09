@@ -333,6 +333,13 @@
                                         <minimumTokens>20</minimumTokens>
                                         <ignoreIdentifiers>true</ignoreIdentifiers>
                                     </configuration>
+					<executions>
+						<execution>
+						<goals>
+							<goal>check</goal>
+						</goals>
+						</execution>
+					</executions>
                                 </plugin>
                                 <plugin>
                                     <groupId>org.codehaus.mojo</groupId>
@@ -495,4 +502,5 @@
             </reporting>
         </profile>
     </profiles>
+
 </project>
